@@ -22,6 +22,10 @@ h1 {
   font-size: 1.5rem;
 }
 
+blockquote strong {
+  font-weight: normal;
+}
+
 figcaption {
   font-size: .8rem;
   font-style: italic;

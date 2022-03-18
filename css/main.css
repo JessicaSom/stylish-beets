@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #c9b5ab;
-  font: normal 1rem/1.5 PT, serif;
+  font: normal 1rem/1.5 "PT Serif", serif;
   line-height: 1.5;
 }
 
@@ -15,16 +15,17 @@ img {
 
 body {
   background-color: #c9b5ab;
-  font-family:PT, serif;
+  font-family: "PT Serif", serif;
+  font-weight: normal;
 }
 
 h1, h2 {
   color: #3f1622;
-  font-family: "PT", sans-serif;
+  font-family: "PT Sans-serif", sans-serif;
 }
 
 figcaption {
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-style: italic;
   text-align: center;
 }
@@ -32,19 +33,19 @@ figcaption {
 nav {
   font-size: 1.125rem;
   font-weight: bold;
-  font-family: "PT", sans-serif;
+  font-family: "PT Sans-serif", sans-serif;
 }
 
 nav ol {
   list-style-type: none;
 }
 
-nav a {
+a {
   color: #8f2440;
   text-decoration: none;
 }
 
-nav a:hover {
+a:hover {
   color: #3f1622;
   text-decoration: underline;
 }

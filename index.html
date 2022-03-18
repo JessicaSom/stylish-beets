@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Beetroot (Beta vulgaris)</title>
+  <title>Beets</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="PT+Serif,PT+Sans">
 </head>
+<body style="overflow-x: hidden;">
 
-<body>
-
-  <header>
+  <header role="banner">
     <h1>Beetroot (<i>Beta vulgaris</i>)</h1>
 
-    <nav>
+    <nav role="navigation">
       <ol>
         <li><a href="#">Common varieties</a></li>
         <li><a href="#">Nutritional information</a></li>
@@ -22,23 +21,25 @@
     </nav>
   </header>
 
-  <main>
+  <main role="main">
+
     <figure>
-      <img src="images/beets.jpg" alt="beets">
+      <img src="images/beets.jpg" alt="">
       <figcaption>A bundle of organic beets from a local farm food co-op program.</figcaption>
     </figure>
 
-    <p>55 to 65 days are needed from germination to harvest of the root.</p>
+    <p><time datetime="P55D">55 to 65 days</time> are needed from germination to harvest of the root.</p>
     <p>The usually deep purple roots of <b>beetroot</b> are eaten either grilled, boiled, or roasted as a cooked vegetable, cold as a salad after cooking and adding oil and vinegar, or raw and shredded, either alone or combined with any salad vegetable.</p>
-    <p>In fact,<cite> Jim Halpert</cite> once said this about beets,<q>Fact, bears eat beets. Bears, beets,<i>Battlestar Galactica</i></q>.</p>
 
-    <footer>
-      <blockquote>"I have some <em>weird</em> habits. For instance, <strong>I love beets</strong>. Show me a salad bar and I will clean them out of their beets."
-        <cite>— Chris Pratt</cite>
-      </blockquote>
-    </footer>
+    <p>In fact, <cite>Jim Halpert</cite> once said this about beets, <q>“Fact, bears eat beets. Bears, beets, <i>Battlestar Galactica</i>”</q>.</p>
+
+    <blockquote>
+      <p>I have some <em>weird</em> habits. For instance, <strong>I love beets</strong>. Show me a salad bar and I will clean them out of their beets.</p>
+      <footer>— <cite>Chris Pratt</cite></footer>
+    </blockquote>
 
     <h2>Common varieties</h2>
+
     <ol>
       <li>Albino</li>
       <li>Bull’s Blood</li>
@@ -49,34 +50,55 @@
 
     <h2>Nutritional information</h2>
 
-    <p>serving size:<data value="100 g"></data></p>
+    <p>Serving size: <data value="100">100 g</data></p>
 
     <dl>
       <dt>Energy:</dt>
-      <dd><data value="180 kJ"></data></dd>
+      <dd><data value="180">180 kJ</data></dd>
+
       <dt>Carbohydrates:</dt>
-      <dd><data value="9.96 g"></data></dd>
+      <dd><data value="9.96">9.96 g</data></dd>
+
       <dt>Fat:</dt>
-      <dd><data value="0.18 g"></data></dd>
+      <dd><data value="0.18">0.18 g</data></dd>
+
       <dt>Protein:</dt>
-      <dd><data value="1.68 g"></data></dd>
+      <dd><data value="1.68">1.68 g</data></dd>
     </dl>
 
-    <aside class="#">
-      <h2>Tags</h2>
-      <ul>
-        <li>Crimson</li>
-        <li>Awesome</li>
-        <li>Pickle-able</li>
-        <li>Vegetable!</li>
-        <li>Delicious</li>
-      </ul>
-    </aside>
+    <section>
+      <h2>Recipes using beets</h2>
 
-    <footer>
-      <small>Source<a href="Wikipedia"></a> Last modified:<time datetime="2014-08-30">Aug 30, 2014</time></small>
-    </footer>
+      <article>
+        <h3>Beet Soup</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a nisl consequat, interdum neque sit amet, condimentum eros.</p>
+        <a href="https://downshiftology.com/recipes/beet-soup/" aria-label="Click here to access beet soup recipe">Read more</a>
+      </article>
+
+      <article>
+        <h3>Pink Beet Pancakes</h3>
+        <p>Donec urna justo, viverra at lacus ac, tempus sodales lectus. Integer in leo enim. Pellentesque eu bibendum quam.</p>
+        <a href="https://thenaturalnurturer.com/pink-beet-pancakes/">Read more</a>
+      </article>
+    </section>
 
   </main>
+
+  <aside class="#">
+    <h2>Tags</h2>
+
+    <ul>
+      <li>Crimson</li>
+      <li>Awesome</li>
+      <li>Pickle-able</li>
+      <li>Vegetable!</li>
+      <li>Delicious</li>
+    </ul>
+  </aside>
+
+  <footer role="contentinfo">
+    <small>Source: <a href="#">Wikipedia</a>; Last modified: <time datetime="2014-08-30">Aug 30, 2014</time></small>
+  </footer>
+
 </body>
 </html>

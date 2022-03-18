@@ -13,22 +13,13 @@ img {
   width: 100%;
 }
 
-body {
-  color: #222;
-  background-color: #c9b5ab;
-  font-family: "PT Serif", serif;
-  font-weight: normal;
-}
-
-blockquote {
-  font-family: "PT Serif", serif;
-  color: #222;
-  font-size: 1.125rem;
-}
-
 h1, h2 {
   color: #3f1622;
   font-family: "PT Sans-serif", sans-serif;
+}
+
+h1 {
+  font-size: 1.5rem;
 }
 
 figcaption {
